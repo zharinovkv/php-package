@@ -2,11 +2,6 @@
   "name": "hexlet/php-package",
   "bin": ["bin/php-package"],
   "type": "library",
-  "require-dev": {
-    "phpunit/phpunit": "*",
-    "squizlabs/php_codesniffer": "*",
-    "codeclimate/php-test-reporter": "dev-master"
-  },
   "authors": [
     {
       "name": "Kirill Mokevnin",
@@ -18,5 +13,10 @@
       "PhpPackage\\": "src/"
     }
   },
-  "require": {}
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "squizlabs/php_codesniffer": "*",
+    "codeclimate/php-test-reporter": "dev-master"
+  }
 }
