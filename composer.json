@@ -8,6 +8,10 @@
       "email": "mokevnin@gmail.com"
     }
   ],
+  "scripts": {
+    "phpcs": "phpcs",
+    "phpunit": "phpunit"
+  },
   "autoload": {
     "psr-4": {
       "PhpPackage\\": "src/"

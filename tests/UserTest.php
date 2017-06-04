@@ -1,8 +1,11 @@
 <?php
 
-namespace PhpPackage;
+namespace PhpPackage\Tests;
 
-class UserTest extends \PHPUnit_Framework_TestCase
+use \PHPUnit\Framework\TestCase;
+use \PhpPackage\User;
+
+class UserTest extends TestCase
 {
     public function testGetName()
     {
