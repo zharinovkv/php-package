@@ -15,7 +15,7 @@
   "autoload": {
     "psr-4": {
       "Php\\Package\\": "src",
-      "Php\\Tests\\": "tests"
+      "Php\\Package\\Tests\\": "tests"
     }
   },
   "require": {},
