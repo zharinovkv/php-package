@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpPackage\Tests;
+namespace Php\Package\Tests;
 
 use \PHPUnit\Framework\TestCase;
-use \PhpPackage\User;
+use \Php\Package\User;
 
 class UserTest extends TestCase
 {
