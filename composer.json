@@ -18,7 +18,9 @@
       "Php\\Package\\Tests\\": "tests"
     }
   },
-  "require": {},
+  "require": {
+    "tightenco/collect": "^5.5"
+  },
   "require-dev": {
     "phpunit/phpunit": "*",
     "squizlabs/php_codesniffer": "*",
