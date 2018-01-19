@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "phpcs": "phpcs",
-    "phpunit": "phpunit"
+    "phpunit": "phpunit",
+    "test": "phpunit tests"
   },
   "autoload": {
     "psr-4": {
