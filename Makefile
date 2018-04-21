@@ -1,6 +1,9 @@
 install:
 	composer install
 
+console:
+	psysh --config psysh.php
+
 lint:
 	composer run-script phpcs -- --standard=PSR2 src tests
 
