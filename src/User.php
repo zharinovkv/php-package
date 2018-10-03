@@ -8,19 +8,19 @@ class User
 {
     private $name;
 
-    public function __construct($name, $children = [])
+    public function __construct(string $name, array $children = [])
     {
         $this->name = $name;
         $this->children = collect($children);
     }
 
-    public function getName()
+    public function getName(): string
     {
         return $this->name;
     }
 
     public function getChildren()
     {
-        return $this->name;
+        return $this->children;
     }
 }
