@@ -1,6 +1,9 @@
 install:
 	composer install
 
+setup: install
+	composer run-script --working-dir=vendor/felixfbecker/language-server parse-stubs
+
 console:
 	psysh --config psysh.php
 

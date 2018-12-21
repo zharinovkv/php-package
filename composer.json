@@ -8,6 +8,7 @@
       "email": "mokevnin@gmail.com"
     }
   ],
+  "minimum-stability": "dev",
   "scripts": {
     "phpcs": "phpcs",
     "phpcbf": "phpcbf",
@@ -27,6 +28,7 @@
   },
   "require-dev": {
     "symfony/var-dumper": "^4.0",
+    "felixfbecker/language-server": "dev-master",
     "phpunit/phpunit": "*",
     "squizlabs/php_codesniffer": "*",
     "codeclimate/php-test-reporter": "dev-master"
