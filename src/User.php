@@ -7,6 +7,7 @@ use Illuminate\Support\Collection;
 class User
 {
     private $name;
+    private $children;
 
     public function __construct(string $name, array $children = [])
     {
