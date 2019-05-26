@@ -2,7 +2,7 @@
 
 namespace Php\Package;
 
-use Illuminate\Support\Collection;
+/* use Illuminate\Support\Collection; */
 
 class User
 {
