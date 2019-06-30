@@ -15,15 +15,18 @@ This repository is created and maintained by the team and the community of Hexle
 
 Use http://psysh.org/
 
-### From Scratch
+### Install
 
-1. composer init
-1. touch README.md
-1. mkdir src
+1. clone repository
+1. `make install`
+
+### Run tests
+
+1. `make test`
 
 ### Test Coverage
 
-* see `phpunit.xml.dist`
+* see `phpunit.xml`
 * https://github.com/codeclimate/php-test-reporter
 * https://docs.travis-ci.com/user/code-climate/#PHP
 * add CODECLIMATE_REPO_TOKEN to travis-ci as ENV VARIABLE (for safety)
