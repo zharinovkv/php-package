@@ -8,7 +8,7 @@
       "email": "mokevnin@gmail.com"
     }
   ],
-  "description": "hexlet boilerplate package",
+  "description": "hexlet php-package",
   "license": "MIT",
   "minimum-stability": "dev",
   "scripts": {
