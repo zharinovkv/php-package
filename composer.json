@@ -8,6 +8,8 @@
       "email": "mokevnin@gmail.com"
     }
   ],
+  "description": "hexlet php-package",
+  "license": "MIT",
   "minimum-stability": "dev",
   "scripts": {
     "phpcs": "phpcs",
