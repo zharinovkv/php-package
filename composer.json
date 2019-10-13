@@ -32,7 +32,6 @@
     "symfony/var-dumper": "^4.0",
     "felixfbecker/language-server": "dev-master",
     "phpunit/phpunit": "*",
-    "squizlabs/php_codesniffer": "*",
-    "codeclimate/php-test-reporter": "dev-master"
+    "squizlabs/php_codesniffer": "*"
   }
 }
