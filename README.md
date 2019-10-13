@@ -26,7 +26,7 @@ Use http://psysh.org/
 
 ### Test Coverage
 
-* see `phpunit.xml`
-* https://github.com/codeclimate/php-test-reporter
+* see `phpunit.xml` and `.travis.yml`
+* https://docs.codeclimate.com/docs/configuring-test-coverage
 * https://docs.travis-ci.com/user/code-climate/#PHP
-* add CODECLIMATE_REPO_TOKEN to travis-ci as ENV VARIABLE (for safety)
+* add CC_TEST_REPORTER_ID to travis-ci as ENV VARIABLE (for safety)
