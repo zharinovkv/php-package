@@ -29,8 +29,9 @@
   },
   "require-dev": {
     "symfony/var-dumper": "^4.0",
-    "felixfbecker/language-server": "dev-master",
     "phpunit/phpunit": "*",
-    "squizlabs/php_codesniffer": "*"
+    "squizlabs/php_codesniffer": "*",
+    "jetbrains/phpstorm-stubs": "dev-master",
+    "felixfbecker/language-server": "^5.4"
   }
 }
