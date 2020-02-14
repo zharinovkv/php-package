@@ -17,13 +17,9 @@ jobs:
           php-version: '7.3'
       - name: Install
         run: make install
-      - name: Run tests
-        run: make test
-        env:
-          CI: true
       - name: Run linter
         run: make lint
-      - name: Test & publish code coverage
+      - name: Run test & publish code coverage
         uses: paambaati/codeclimate-action@v2.4.0
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
