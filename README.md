@@ -1,8 +1,8 @@
 # php-package
 
-[![Build Status](https://travis-ci.org/hexlet-boilerplates/php-package.svg?branch=master)](https://travis-ci.org/hexlet-boilerplates/php-package)
+[![Github Actions Status](https://github.com/hexlet-boilerplates/php-package/workflows/PHP%20CI/badge.svg)](https://github.com/hexlet-boilerplates/php-package/actions)
 [![Code Climate](https://codeclimate.com/github/hexlet-boilerplates/php-package/badges/gpa.svg)](https://codeclimate.com/github/hexlet-boilerplates/php-package)
-[![Issue Count](https://codeclimate.com/github/hexlet-boilerplates/php-package/badges/issue_count.svg)](https://codeclimate.com/github/hexlet-boilerplates/php-package)
+[![Issue Count](https://codeclimate.com/github/hexlet-boilerplates/php-package/badges/issue_count.svg)](https://codeclimate.com/github/hexlet-boilerplates/php-package/issues)
 [![Test Coverage](https://codeclimate.com/github/hexlet-boilerplates/php-package/badges/coverage.svg)](https://codeclimate.com/github/hexlet-boilerplates/php-package/coverage)
 
 ##
@@ -15,18 +15,20 @@ This repository is created and maintained by the team and the community of Hexle
 
 Use http://psysh.org/
 
-### Install
+## Setup
 
-1. clone repository
-1. `make install`
+```sh
+$ git clone https://github.com/hexlet-boilerplates/php-package.git
+$ make install
+```
+## Run tests
 
-### Run tests
+```sh
+$ make test
+```
 
-1. `make test`
+## Test Coverage
 
-### Test Coverage
-
-* see `phpunit.xml` and `.travis.yml`
+* see `phpunit.xml`
 * https://docs.codeclimate.com/docs/configuring-test-coverage
-* https://docs.travis-ci.com/user/code-climate/#PHP
-* add CC_TEST_REPORTER_ID to travis-ci as ENV VARIABLE (for safety)
+* add CC_TEST_REPORTER_ID to workflow as SECERETS ENV VARIABLE (for safety)
