@@ -16,15 +16,15 @@ Use <http://psysh.org/>
 ## Setup
 
 ```sh
-git clone https://github.com/hexlet-boilerplates/php-package.git
+$ git clone https://github.com/hexlet-boilerplates/php-package.git
 
-make install
+$ make install
 ```
 
 ## Run tests
 
 ```sh
-make test
+$ make test
 ```
 
 ## Test Coverage
