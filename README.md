@@ -5,30 +5,30 @@
 [![Issue Count](https://codeclimate.com/github/hexlet-boilerplates/php-package/badges/issue_count.svg)](https://codeclimate.com/github/hexlet-boilerplates/php-package/issues)
 [![Test Coverage](https://codeclimate.com/github/hexlet-boilerplates/php-package/badges/coverage.svg)](https://codeclimate.com/github/hexlet-boilerplates/php-package/coverage)
 
-##
 [![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/hexletguides.github.io/master/images/hexlet_logo128.png)](https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=php-package)
 
 This repository is created and maintained by the team and the community of Hexlet, an educational project. [Read more about Hexlet (in Russian)](https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=php-package).
-##
 
-### Addons
+## Addons
 
-Use http://psysh.org/
+Use <http://psysh.org/>
 
 ## Setup
 
 ```sh
-$ git clone https://github.com/hexlet-boilerplates/php-package.git
-$ make install
+git clone https://github.com/hexlet-boilerplates/php-package.git
+
+make install
 ```
+
 ## Run tests
 
 ```sh
-$ make test
+make test
 ```
 
 ## Test Coverage
 
-* see `phpunit.xml`
-* https://docs.codeclimate.com/docs/configuring-test-coverage
-* add CC_TEST_REPORTER_ID to workflow as SECERETS ENV VARIABLE (for safety)
+-   see `phpunit.xml`
+-   <https://docs.codeclimate.com/docs/configuring-test-coverage>
+-   add CC_TEST_REPORTER_ID to workflow as SECERETS ENV VARIABLE (for safety)
